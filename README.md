@@ -11,7 +11,7 @@ If you use mFASD for your scientific research please cite the following publicat
 **Wei He, Zhi Liang, Maikun Teng, Liwen Niu; mFASD: a structure-based algorithm for discriminating different types of metal-binding sites, Bioinformatics, Volume 31, Issue 12, 15 June 2015, Pages 1938–1944, https://doi.org/10.1093/bioinformatics/btv044**
 
 
-## Installation
+## 1. Installation
 
 ProTiler is written in Python, Python2.7 is needed
 
@@ -31,7 +31,7 @@ https://github.com/MDhewei/mFASD/archive/master.zip
 
 
 
-## Usage 
+## 2. Usage 
 
 ###  Arguments of the program:
 
@@ -80,7 +80,7 @@ python mFASD.py -i 2HPI.pdb -m ZN -r 20,47,214
 ```
 
 
-## Output
+## 3. Output
 
 ### mFASD output a .txt file recording all the voting results as following example:
 
