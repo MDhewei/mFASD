@@ -210,7 +210,7 @@ if __name__ == '__main__':
      args = parser.parse_args()
      metal = args.metal_type.upper()
      QueryPDBCode = args.input
-     ReferenceSet = ChangePDBCodeToList(os.path.join(os.getcwd(),metal+'_reference'))
+     ReferenceSet = ChangePDBCodeToList(os.path.join(os.getcwd(),'ReferenceList',metal+'_reference'))
      ResidueList = [int(i) for i in args.residue_list.split(',')]
      t1 = args.threshold1
      t2 = args.threshold2
