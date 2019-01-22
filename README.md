@@ -23,8 +23,10 @@ bash Anaconda2-2018.12-Linux-x86_64.sh
 ### Install mFASD
 
 ```consol
-git clone 
+git clone https://github.com/MDhewei/mFASD.git
 ```
+or directly download the .zip package through:
+
 
 ## Usage 
 
