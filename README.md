@@ -8,26 +8,27 @@ CU, MN, CA, MG, etc. for any given protein region with known 3D structure.
 
 If you use mFASD for your scientific research please cite the following publication:
 
-Wei He, Zhi Liang, Maikun Teng, Liwen Niu; mFASD: a structure-based algorithm for discriminating different types of metal-binding sites, Bioinformatics, Volume 31, Issue 12, 15 June 2015, Pages 1938–1944, https://doi.org/10.1093/bioinformatics/btv044
+**Wei He, Zhi Liang, Maikun Teng, Liwen Niu; mFASD: a structure-based algorithm for discriminating different types of metal-binding sites, Bioinformatics, Volume 31, Issue 12, 15 June 2015, Pages 1938–1944, https://doi.org/10.1093/bioinformatics/btv044**
 
 
 ## Installation
 
 ProTiler is written in Python, Python2.7 is needed
 
-### Install Anaconda (highly recomended)
+### STEP1: Install Anaconda (highly recomended)
 ```console
 wget https://repo.continuum.io/archive/Anaconda2-2018.12-Linux-x86_64.sh 
 bash Anaconda2-2018.12-Linux-x86_64.sh 
 ```
-### Install mFASD
+### STEP2: Download mFASD package
 
-#### clone the git repo to your local directory through:
+#### Clone the git repo to your local directory through:
 ```consol
 git clone https://github.com/MDhewei/mFASD.git
 ```
-#### or directly download the .zip package through:
+#### Or directly download the .zip package through:
 https://github.com/MDhewei/mFASD/archive/master.zip
+
 
 
 ## Usage 
@@ -72,14 +73,15 @@ https://github.com/MDhewei/mFASD/archive/master.zip
      
 
 
-### Example to run protiler call
+#### Example to run protiler call
 
 ```console
 python mFASD.py -i 2HPI.pdb -m ZN -r 20,47,214
 ```
 
-### Output
 
-#### mFASD output a .txt file recording all the voting results as following example:
+## Output
+
+### mFASD output a .txt file recording all the voting results as following example:
 
 ![](output_example.png)
