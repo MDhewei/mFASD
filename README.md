@@ -13,7 +13,7 @@ If you use mFASD for your scientific research please cite the following publicat
 
 ## 1. Installation
 
-ProTiler is written in Python, Python2.7 is needed
+mFASD is written in Python, Python2.7 is needed
 
 ### STEP1: Install Anaconda (highly recomended)
 ```console
